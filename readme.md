@@ -16,6 +16,7 @@ Go to project directory and run the following commands from terminal
 
     composer install    
     npm install
+now rename `.env.example` file to `.env`  and  add the following line in `.env` file 
     
 ##Run Project
 Open two new terminal and go to the project's root directory
@@ -24,9 +25,10 @@ Open two new terminal and go to the project's root directory
     node socket.js    
 ####Tarminal 2:
 
+    php artisan key:generate
     php artisan serve
 ##See Output    
-Open two browser tab
+Open two tab in browser
 ####Browser Tab1:
     localhost:8000/test
 ####Browser Tab2:
